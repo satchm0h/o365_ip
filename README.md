@@ -1,13 +1,17 @@
 # o365_ip
 Pull IP addresses from Microsoft Office 365 periodically
 
-# usage
+## Dependencies
+
+Use [Pipenv](https://pipenv.pypa.io/en/latest/)
+
+Alternatively, you only need `requests` and `coloredlogs` from pip3
 
 ## Quick Start
 
     python3 ./o365_ip.py -d delta.json
 
-This is bascially the command you always want to run. It will pull the latest from Microsoft and generate a json file that indicates which IPs are new and which are removed since the last run.
+This is basically the command you always want to run. It will pull the latest from Microsoft and generate a JSON file that indicates which IPs are new and which are removed since the last run.
 
 If this is your first run, it will put the entire content in the "add" list.
 
