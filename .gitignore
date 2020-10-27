@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# default data files
+client-guid
+last-dump
+last-version
+delta.json
